@@ -1,0 +1,27 @@
+
+
+
+
+
+body{
+    color: red;
+}
+h1 {
+    color: green;
+}
+.purple {
+    color: purple;
+    background-color: gray;
+}
+#superimportanth1 {
+    color: blue;
+    border: 2px solid black;
+}
+
+
+.half_and_half {
+    border: 2px solid black;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
