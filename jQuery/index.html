@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery-3.2.1.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            
+
+            $('li').css('background-color', 'purple')
+
+            $('h1').click(function(){
+                $(this).css('color', 'blue');
+            })
+
+            $('body').on('click', 'h1', function(){
+                // $('li').css('width', '50%');
+                $('body').append('<h1>Hello Mojo</h1>');
+                $(this).css('color', 'blue');
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>Hello WOrld</h1>
+    <h1>Hello You</h1>
+    <h1>Hello Me</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum aut quaerat unde expedita, molestias aliquam. Esse vitae atque dicta, dignissimos deserunt odit ipsam voluptatum consectetur ea ducimus ipsum ut.</p>
+    <ul class="ballin">
+        <li>A</li>
+        <li>A</li>
+        <li>A</li>
+        <li>A</li>
+        <li>A</li>
+        <li>A</li>
+    </ul>
+
+</body>
+</html>
